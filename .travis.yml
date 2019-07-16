@@ -6,9 +6,10 @@ python:
 install:
   - rm -rf .git
   - pip3 install markdown
+  - echo -e "[TOC]\n" > buf.md && cat README.md >> buf.md
 
 script:
-  - python3 main.py README.md index.html
+  - python3 main.py buf.md index.html
   - git clone https://${GH_REF} -b ${P_BRANCH} tmpdir
   - cp -r *.gif github-markdown.css index.html README.md driver tmpdir
   - cd tmpdir
