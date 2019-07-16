@@ -1,0 +1,33 @@
+dist: xenial
+language: python
+python:
+  - "3.7"
+
+install:
+  - rm -rf .git
+  - pip3 install markdown
+
+script:
+  - python3 main.py README.md index.html
+  - git clone https://${GH_REF} -b ${P_BRANCH} tmpdir
+  - cp -r *.gif index.html README.md driver tmpdir
+  - cd tmpdir
+  - git config user.name "${U_NAME}"
+  - git config user.email "${U_EMAIL}"
+  - git add --all
+  - git commit -m "build from travis-ci `TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S'`"
+  - git push https://${GH_TOKEN}@${GH_REF} ${P_BRANCH}
+
+branches:
+  only:
+    - master
+
+notifications:
+  email:
+    - lucien@lucien.ink
+  on_failure: always
+
+env:
+  global:
+    - GH_REF: github.com/UPCACM/Printer.git
+    - P_BRANCH: build
