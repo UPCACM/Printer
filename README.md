@@ -4,7 +4,7 @@ ACMCLUB printer's usage & deployment
 
 ## Connect
 
-Copy the link `http://printer.upcacm.club:631/printers/HP-LaserJet-P1008`, it would be used below
+Copy the link `http://printer.upcacm.club/printers/HP-LaserJet-P1008`, it would be used below
 
 ### Windows 10
 
@@ -17,6 +17,10 @@ Download and decompress it first
 ### macOS
 
 ![macOS.gif](./macOS.gif)
+
+## Hint
+
+File size shoud not greater than 128 MB, or will cause error
 
 ## Copyright
 
