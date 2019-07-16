@@ -17,3 +17,7 @@ Download and decompress it first
 ### macOS
 
 ![macOS.gif](./macOS.gif)
+
+## Copyright
+
+[Lucien Shui](https://github.com/LucienShui)
