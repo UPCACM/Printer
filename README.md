@@ -20,7 +20,11 @@ Download and decompress it first
 
 ## Hint
 
-File size shoud not greater than 128 MB, or will cause error
+File size should not greater than 128 MB, or will cause error
+
+Only China University of Petroleum inner network can access [http://printer.upcacm.club](http://printer.upcacm.club)
+
+Access from the public network is possible but banned for security
 
 ## Copyright
 
