@@ -12,6 +12,7 @@ def md2html(mdstr):
     <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <link href="github-markdown.css" rel="stylesheet">
+    <title>UPC ACMCLUB Printer</title>
     <style>
     .markdown-body {
         box-sizing: border-box;
