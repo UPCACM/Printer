@@ -1,31 +1,65 @@
 # Printer
 
-ACMCLUB printer's usage & deployment
+ACM 实验室打印机使用 & 异常处理手册
 
-## Connect
+## 1. 连接
 
-Copy the link `http://printer.upcacm.club/printers/HP-LaserJet-P1008`, it would be used below
+> 暂时不支持 `Linux`
 
-### Windows 10
+首先复制链接：`http://printer.upcacm.club/printers/HP-LaserJet-P1008`，后面会用到
 
-[64 bit](./driver/64.zip) / [32 bit](./driver/32.zip) driver is required
+### 1.1 Windows 10
 
-Download and decompress it first
+#### 1.1.1 下载驱动
 
-![Windows_10.gif](./Windows_10.gif)
+下载 [64 位](./driver/64.zip) 或 [32 位](./driver/32.zip) 的驱动，然后解压到本地
 
-### macOS
+#### 1.1.2 添加打印机
 
-![macOS.gif](./macOS.gif)
+跟随视频中的步骤即可
 
-## Hint
+<video width="1024" height="768" controls>
+    <source src="./Windows_10.mp4" type="video/mp4">
+    您的浏览器不支持Video标签
+</video>
 
-File size should not greater than 128 MB, or will cause error
+### 1.2 macOS
 
-Only China University of Petroleum inner network can access [http://printer.upcacm.club](http://printer.upcacm.club)
+跟随视频中的步骤
 
-Access from the public network is possible but banned for security
+<video width="668" height="486" controls>
+    <source src="./macOS.mp4" type="video/mp4">
+    您的浏览器不支持Video标签
+</video>
 
-## Copyright
+## 2. 异常处理
+
+### 2.1 缺纸
+
+如果出现打印机缺纸，请严格按照 2.1.1 ~ 2.1.3 进行操作，不要做任何多余的动作。之后打印机会进行异常恢复，随后继续打印因为缺纸而中断的任务
+
+### 2.1.1 放入纸张
+
+请放入足够多的纸张
+
+### 2.1.2 打开打印机的硒鼓舱门
+
+![open.png](./open.png)
+
+### 2.1.3 合上打印机的硒鼓舱门
+
+![close.png](./close.png)
+
+### 2.2 打印的字迹很淡
+
+这是因为硒鼓中的墨粉用完的缘故，请联系学长
+
+## 3. FAQ
+
+1. 打印的文件大小不能超过 `1 GB`，超过这个大小会打印失败
+2. 只有在校园内网才可以使用这个打印机，以及访问 [http://printer.upcacm.club](http://printer.upcacm.club)
+3. 从技术上讲，可以在任何地方使用这台打印机，但出于安全考虑，限制在校内
+
+## 4. 版权所有
 
 [Lucien Shui](https://github.com/LucienShui)
