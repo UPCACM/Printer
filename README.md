@@ -60,6 +60,14 @@ ACM 实验室打印机使用 & 异常处理手册
 2. 只有在校园内网才可以使用这个打印机，以及访问 [http://printer.upcacm.club](http://printer.upcacm.club)
 3. 从技术上讲，可以在任何地方使用这台打印机，但出于安全考虑，限制在校内
 
-## 4. 版权所有
+## 4. 关于打印机
+
+| 名称 | 值 |
+| :---: | :---: |
+| 型号 | `HP LaserJet P1008` |
+| 是否支持自动双面 | `否` |
+| 是否支持彩色打印 | `否` |
+
+## 5. 版权所有
 
 [Lucien Shui](https://github.com/LucienShui)
