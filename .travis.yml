@@ -11,7 +11,7 @@ install:
 script:
   - python3 main.py buf.md index.html
   - git clone https://${GH_REF} -b ${P_BRANCH} tmpdir
-  - cp -r *.gif github-markdown.css index.html README.md driver tmpdir
+  - cp -r *.mp4 github-markdown.css index.html README.md driver tmpdir
   - cd tmpdir
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
