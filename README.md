@@ -12,14 +12,14 @@ ACM 实验室打印机使用 & 异常处理手册
 
 #### 1.1.1 下载驱动
 
-下载 [64 位](./driver/64.zip) 或 [32 位](./driver/32.zip) 的驱动，然后解压到本地
+下载 [64 位](./static/driver/64.zip) 或 [32 位](./static/driver/32.zip) 的驱动，然后解压到本地
 
 #### 1.1.2 添加打印机
 
 跟随视频中的步骤即可
 
 <video width="1024" height="768" controls>
-    <source src="./Windows_10.mp4" type="video/mp4">
+    <source src="./static/Windows_10.mp4" type="video/mp4">
     您的浏览器不支持Video标签
 </video>
 
@@ -28,7 +28,7 @@ ACM 实验室打印机使用 & 异常处理手册
 跟随视频中的步骤
 
 <video width="668" height="486" controls>
-    <source src="./macOS.mp4" type="video/mp4">
+    <source src="./static/macOS.mp4" type="video/mp4">
     您的浏览器不支持Video标签
 </video>
 
@@ -44,11 +44,11 @@ ACM 实验室打印机使用 & 异常处理手册
 
 ### 2.1.2 打开打印机的硒鼓舱门
 
-![open.png](./open.png)
+![open.png](./static/open.png)
 
 ### 2.1.3 合上打印机的硒鼓舱门
 
-![close.png](./close.png)
+![close.png](./static/close.png)
 
 ### 2.2 打印的字迹很淡
 

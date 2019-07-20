@@ -11,7 +11,7 @@ def md2html(mdstr):
     <html lang="en">
     <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
-    <link href="github-markdown.css" rel="stylesheet">
+    <link href="./static/github-markdown.css" rel="stylesheet">
     <title>UPC ACMCLUB Printer</title>
     <style>
     .markdown-body {
