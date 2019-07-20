@@ -4,17 +4,17 @@ ACM 实验室打印机使用 & 异常处理手册
 
 ## 1. 连接
 
-> 暂时不支持 `Linux`
-
-首先复制链接：`http://printer.upcacm.club/printers/HP-LaserJet-P1008`，后面会用到
-
 ### 1.1 Windows 10
 
 #### 1.1.1 下载驱动
 
 下载 [64 位](./static/driver/64.zip) 或 [32 位](./static/driver/32.zip) 的驱动，然后解压到本地
 
-#### 1.1.2 添加打印机
+#### 1.1.2 复制链接
+
+复制链接：`http://printer.upcacm.club/printers/HP-LaserJet-P1008`，下一步会用到
+
+#### 1.1.3 添加打印机
 
 跟随视频中的步骤即可
 
@@ -25,12 +25,35 @@ ACM 实验室打印机使用 & 异常处理手册
 
 ### 1.2 macOS
 
+#### 1.2.1 复制链接
+
+复制链接：`http://printer.upcacm.club/printers/HP-LaserJet-P1008`，下一步会用到
+
+#### 1.2.2 添加打印机
+
 跟随视频中的步骤
 
 <video width="668" height="486" controls>
     <source src="./static/macOS.mp4" type="video/mp4">
     您的浏览器不支持Video标签
 </video>
+
+### 1.3 Linux
+
+#### 1.3.1 复制链接
+
+复制链接：`ipp://printer.upcacm.club/printers/HP-LaserJet-P1008`，下一步会用到
+
+#### 1.3.2 添加打印机
+
+跟随视频中的步骤
+
+<video width="1024" height="768" controls>
+    <source src="./static/Linux.mp4" type="video/mp4">
+    您的浏览器不支持Video标签
+</video>
+
+#### 
 
 ## 2. 异常处理
 
