@@ -10,9 +10,10 @@ install:
 
 script:
   - python3 main.py buf.md index.html
-  - git clone https://${GH_REF} -b ${P_BRANCH} tmpdir
-  - cp -r static index.html LICENSE README.md tmpdir
-  - cd tmpdir
+  - git clone https://${GH_REF} -b ${P_BRANCH} temporary
+  - mkdir pushdir
+  - cp -r temporary/.git static index.html LICENSE README.md pushdir
+  - cd pushdir
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
   - git add --all
