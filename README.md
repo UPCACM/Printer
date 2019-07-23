@@ -42,7 +42,7 @@ ACM 实验室打印机使用 & 异常处理手册
 
 #### 1.3.1 复制链接
 
-复制链接：`ipp://printer.upcacm.club/printers/HP-LaserJet-P1008`，下一步会用到
+复制链接：`ipp://printer.upcacm.club:631/printers/HP-LaserJet-P1008`，下一步会用到
 
 #### 1.3.2 添加打印机
 
