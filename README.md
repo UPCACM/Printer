@@ -89,6 +89,10 @@ ACM 实验室打印机使用 & 异常处理手册
 | 是否支持自动双面 | `否` |
 | 是否支持彩色打印 | `否` |
 
-## 5. 版权所有
+## 5. 参与贡献
+
+[在 GitHub 上编辑此页](https://github.com/UPCACM/Printer)
+
+## 6. 版权所有
 
 [Lucien Shui](https://github.com/LucienShui)
