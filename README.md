@@ -1,6 +1,6 @@
 # Printer
 
-ACM 实验室打印机使用 & 异常处理手册
+ACM 实验室打印机使用 & 异常处理
 
 ## 1. 连接
 
@@ -91,7 +91,7 @@ ACM 实验室打印机使用 & 异常处理手册
 
 ## 5. 参与贡献
 
-[在 GitHub 上编辑此页](https://github.com/UPCACM/Printer)
+[在 GitHub 上编辑此页](https://github.com/UPCACM/Printer/edit/master/README.md)
 
 ## 6. 版权所有
 
