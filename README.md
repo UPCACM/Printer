@@ -53,6 +53,17 @@ ACM 实验室打印机使用 & 异常处理
     您的浏览器不支持Video标签
 </video>
 
+### 1.4 iOS
+
+iOS 设备在连接至实验室名为 ACMCLUB 的 Wi-Fi 后，可直接通过 AirPrint（隔空打印）进行打印，无需任何准备，详见：
+
++ [Apple 支持 - 使用“隔空打印”通过 iPhone、iPad 或 iPod touch 进行打印](https://support.apple.com/zh-cn/HT201387)
++ [百度经验 - 苹果手机如何使用 AirPrint 隔空打印](https://jingyan.baidu.com/article/fc07f989a4c9dc12fee51967.html)
+
+#### 截图
+
+![iOS.png](./static/iOS.jpeg)
+
 ## 2. 异常处理
 
 ### 2.1 缺纸
